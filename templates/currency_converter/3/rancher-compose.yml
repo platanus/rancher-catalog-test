@@ -1,0 +1,9 @@
+.catalog:
+  name: currency_converter
+  version: 0.1.0-3-4r8u9m9
+  description: Currency converter api
+  questions:
+    - variable: api_key
+      label: API Token Salt
+      type: password
+      required: true
