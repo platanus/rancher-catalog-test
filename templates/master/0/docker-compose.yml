@@ -1,0 +1,5 @@
+currency_converter:
+  image: 074866049636.dkr.ecr.us-east-1.amazonaws.com/currency-converter:
+  environment:
+    - RACK_ENV: production
+  command: ['bundle','exec','rackup -s puma -p 9293 -o 0.0.0.0']
